@@ -6,8 +6,9 @@ import java.sql.*;
 
 public class Main {
 
-    public static void main(String[] args){
 
+    public static void main(String[] args){
+        System.out.println("òiuhiushvoshaivhyuasd");
         try{
             //classe singleton per ottenre la connessione
             //ci sara' solamente una singola instanza di connection
