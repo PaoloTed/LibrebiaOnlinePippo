@@ -1,0 +1,127 @@
+Index: src/main/java/org/example/GUI/Home.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.GUI;\r\n\r\nimport javax.swing.*;\r\nimport java.awt.event.ActionEvent;\r\nimport java.awt.event.ActionListener;\r\n\r\npublic class Home {\r\n    private JPanel rootPanel;\r\n    private JLabel HelloLabel;\r\n    private JButton premimiButton;\r\n\r\n    public Home() {\r\n        premimiButton.addActionListener(new ActionListener() {\r\n            @Override\r\n            public void actionPerformed(ActionEvent e) {\r\n                HelloLabel.setText(\"Mariano\");\r\n            }\r\n        });\r\n    }\r\n\r\n    public static void main(String[] args) {\r\n        JFrame frame = new JFrame(\"Home\");\r\n        frame.setContentPane(new Home().rootPanel);\r\n        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\r\n        frame.pack();\r\n        frame.setVisible(true);\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/GUI/Home.java b/src/main/java/org/example/GUI/Home.java
+--- a/src/main/java/org/example/GUI/Home.java	(revision 24c1b9b44cfd292dfc53ef797cce264dfd595772)
++++ b/src/main/java/org/example/GUI/Home.java	(date 1682602901906)
+@@ -6,6 +6,10 @@
+ 
+ public class Home {
+     private JPanel rootPanel;
++    private JTextField textField1;
++    private JTextField textField2;
++    private JButton loginButton;
++    private JButton button2;
+     private JLabel HelloLabel;
+     private JButton premimiButton;
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"860de269-62df-43d9-bae2-ecacd49b4d93\" name=\"Changes\" comment=\"jkygasbdkasujda\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/GUI/Home.form\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/GUI/Home.form\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/GUI/Home.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/GUI/Home.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2OgrkGNyeJRuAtOGFLBh38rDUSp\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Downloaded.Files.Path.Enabled\": \"false\",\r\n    \"Repository.Attach.Annotations\": \"false\",\r\n    \"Repository.Attach.JavaDocs\": \"false\",\r\n    \"Repository.Attach.Sources\": \"false\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH\": \"316\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"codeWithMe.voiceChat.enabledByDefault\": \"false\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"project.structure.last.edited\": \"Libraries\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.2\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\LibreriaOnlneV2\\LibrebiaOnlineV2\\src\\main\\java\\org\\example\\GUI\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"860de269-62df-43d9-bae2-ecacd49b4d93\" name=\"Changes\" comment=\"\" />\r\n      <created>1681993210936</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1681993210936</updated>\r\n      <workItem from=\"1681993212187\" duration=\"5275000\" />\r\n      <workItem from=\"1682597529920\" duration=\"355000\" />\r\n      <workItem from=\"1682600848839\" duration=\"1763000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Prova\">\r\n      <created>1682602489950</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682602489950</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"jkygasbdkasujda\">\r\n      <created>1682602559686</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682602559686</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Prova\" />\r\n    <MESSAGE value=\"jkygasbdkasujda\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"jkygasbdkasujda\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 24c1b9b44cfd292dfc53ef797cce264dfd595772)
++++ b/.idea/workspace.xml	(date 1682602934671)
+@@ -4,7 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="860de269-62df-43d9-bae2-ecacd49b4d93" name="Changes" comment="jkygasbdkasujda">
++    <list default="true" id="860de269-62df-43d9-bae2-ecacd49b4d93" name="Changes" comment="provaaaa4">
+       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GUI/Home.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GUI/Home.form" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GUI/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GUI/Home.java" afterDir="false" />
+     </list>
+@@ -68,7 +68,7 @@
+       <updated>1681993210936</updated>
+       <workItem from="1681993212187" duration="5275000" />
+       <workItem from="1682597529920" duration="355000" />
+-      <workItem from="1682600848839" duration="1763000" />
++      <workItem from="1682600848839" duration="2084000" />
+     </task>
+     <task id="LOCAL-00001" summary="Prova">
+       <created>1682602489950</created>
+@@ -84,7 +84,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1682602559686</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="provaaaa4">
++      <created>1682602654829</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1682602654829</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -104,6 +111,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Prova" />
+     <MESSAGE value="jkygasbdkasujda" />
+-    <option name="LAST_COMMIT_MESSAGE" value="jkygasbdkasujda" />
++    <MESSAGE value="provaaaa4" />
++    <option name="LAST_COMMIT_MESSAGE" value="provaaaa4" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/java/org/example/GUI/Home.form
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<form xmlns=\"http://www.intellij.com/uidesigner/form/\" version=\"1\" bind-to-class=\"org.example.GUI.Home\">\r\n  <grid id=\"27dc6\" binding=\"rootPanel\" layout-manager=\"GridLayoutManager\" row-count=\"2\" column-count=\"2\" same-size-horizontally=\"false\" same-size-vertically=\"false\" hgap=\"-1\" vgap=\"-1\">\r\n    <margin top=\"0\" left=\"0\" bottom=\"0\" right=\"0\"/>\r\n    <constraints>\r\n      <xy x=\"20\" y=\"20\" width=\"500\" height=\"400\"/>\r\n    </constraints>\r\n    <properties/>\r\n    <border type=\"none\"/>\r\n    <children>\r\n      <component id=\"ee3a0\" class=\"javax.swing.JLabel\" binding=\"HelloLabel\">\r\n        <constraints>\r\n          <grid row=\"0\" column=\"0\" row-span=\"2\" col-span=\"1\" vsize-policy=\"0\" hsize-policy=\"0\" anchor=\"8\" fill=\"0\" indent=\"0\" use-parent-layout=\"false\"/>\r\n        </constraints>\r\n        <properties>\r\n          <text value=\"peni di fabrizio\"/>\r\n        </properties>\r\n      </component>\r\n      <component id=\"33035\" class=\"javax.swing.JButton\" binding=\"premimiButton\" default-binding=\"true\">\r\n        <constraints>\r\n          <grid row=\"0\" column=\"1\" row-span=\"1\" col-span=\"1\" vsize-policy=\"0\" hsize-policy=\"3\" anchor=\"0\" fill=\"1\" indent=\"0\" use-parent-layout=\"false\"/>\r\n        </constraints>\r\n        <properties>\r\n          <text value=\"dasdasdsad\"/>\r\n        </properties>\r\n      </component>\r\n      <component id=\"9f20b\" class=\"javax.swing.JLabel\">\r\n        <constraints>\r\n          <grid row=\"1\" column=\"1\" row-span=\"1\" col-span=\"1\" vsize-policy=\"0\" hsize-policy=\"0\" anchor=\"8\" fill=\"0\" indent=\"0\" use-parent-layout=\"false\"/>\r\n        </constraints>\r\n        <properties>\r\n          <text value=\"Label\"/>\r\n        </properties>\r\n      </component>\r\n    </children>\r\n  </grid>\r\n</form>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/GUI/Home.form b/src/main/java/org/example/GUI/Home.form
+--- a/src/main/java/org/example/GUI/Home.form	(revision 24c1b9b44cfd292dfc53ef797cce264dfd595772)
++++ b/src/main/java/org/example/GUI/Home.form	(date 1682602902877)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.GUI.Home">
+-  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
++  <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+     <margin top="0" left="0" bottom="0" right="0"/>
+     <constraints>
+       <xy x="20" y="20" width="500" height="400"/>
+@@ -8,30 +8,11 @@
+     <properties/>
+     <border type="none"/>
+     <children>
+-      <component id="ee3a0" class="javax.swing.JLabel" binding="HelloLabel">
+-        <constraints>
+-          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+-        </constraints>
+-        <properties>
+-          <text value="peni di fabrizio"/>
+-        </properties>
+-      </component>
+-      <component id="33035" class="javax.swing.JButton" binding="premimiButton" default-binding="true">
+-        <constraints>
+-          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+-        </constraints>
+-        <properties>
+-          <text value="dasdasdsad"/>
+-        </properties>
+-      </component>
+-      <component id="9f20b" class="javax.swing.JLabel">
++      <hspacer id="5c5f1">
+         <constraints>
+-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
++          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+         </constraints>
+-        <properties>
+-          <text value="Label"/>
+-        </properties>
+-      </component>
++      </hspacer>
+     </children>
+   </grid>
+ </form>

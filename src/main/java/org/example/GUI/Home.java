@@ -6,6 +6,10 @@ import java.awt.event.ActionListener;
 
 public class Home {
     private JPanel rootPanel;
+    private JTextField csacaTextField;
+    private JButton loginButton;
+    private JButton reggisterButton;
+    private JPasswordField passwordField1;
     private JLabel HelloLabel;
     private JButton premimiButton;
 
