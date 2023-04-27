@@ -8,6 +8,7 @@ public class Home {
     private JPanel rootPanel;
     private JButton button1;
     private JButton button2;
+    private JButton button3;
     private JLabel HelloLabel;
     private JButton premimiButton;
 
