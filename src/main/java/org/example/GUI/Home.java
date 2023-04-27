@@ -6,9 +6,6 @@ import java.awt.event.ActionListener;
 
 public class Home {
     private JPanel rootPanel;
-    private JButton button1;
-    private JButton button2;
-    private JButton button3;
     private JLabel HelloLabel;
     private JButton premimiButton;
 
@@ -28,9 +25,5 @@ public class Home {
         frame.pack();
         frame.setVisible(true);
 
-    }
-
-    private void createUIComponents() {
-        // TODO: place custom component creation code here
     }
 }
