@@ -78,6 +78,7 @@ public class Login {
         constraints.gridwidth = 1;
         constraints.anchor = GridBagConstraints.CENTER;
         centerPanel.add(registerButton, constraints);
+        //
 
         loginButton.addActionListener(new ActionListener() {
             @Override
