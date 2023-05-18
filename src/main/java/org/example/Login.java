@@ -9,7 +9,6 @@ import java.awt.event.ActionListener;
 public class Login {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            // Imposta il look-and-feel di FlatLaf
             try {
                 UIManager.setLookAndFeel(new FlatLightLaf());
             } catch (UnsupportedLookAndFeelException e) {
@@ -19,59 +18,67 @@ public class Login {
             JFrame frame = new JFrame("Login");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-            JPanel panel = new JPanel();
-            frame.add(panel);
-            placeComponents(panel);
+            JPanel loginPanel = new JPanel();
+            placeLoginComponents(loginPanel, frame);
 
-            frame.pack();
+            frame.add(loginPanel);
+
+            // Imposta la dimensione del frame a 500x500
+            frame.setSize(new Dimension(500, 500));
+
+            // Disabilita il pulsante di ingrandimento dello schermo
+            frame.setResizable(false);
+
             frame.setLocationRelativeTo(null);
             frame.setVisible(true);
         });
     }
 
-    private static void placeComponents(JPanel panel) {
-        panel.setLayout(new GridBagLayout());
-        panel.setBackground(new Color(204, 229, 255));
-        GridBagConstraints constraints = new GridBagConstraints();
+    public static void placeLoginComponents(JPanel panel, JFrame frame) {
+        panel.setLayout(new BorderLayout());
 
+        JPanel centerPanel = new JPanel(new GridBagLayout());
+        centerPanel.setBackground(new Color(204, 229, 255));
+        panel.add(centerPanel, BorderLayout.CENTER);
+
+        GridBagConstraints constraints = new GridBagConstraints();
         constraints.anchor = GridBagConstraints.WEST;
         constraints.insets = new Insets(5, 5, 5, 5);
 
         JLabel userLabel = new JLabel("Username:");
         constraints.gridx = 0;
         constraints.gridy = 0;
-        panel.add(userLabel, constraints);
+        centerPanel.add(userLabel, constraints);
 
         JTextField userText = new JTextField(20);
         constraints.gridx = 1;
         constraints.gridy = 0;
-        panel.add(userText, constraints);
+        centerPanel.add(userText, constraints);
 
         JLabel passwordLabel = new JLabel("Password:");
         constraints.gridx = 0;
         constraints.gridy = 1;
-        panel.add(passwordLabel, constraints);
+        centerPanel.add(passwordLabel, constraints);
 
         JPasswordField passwordText = new JPasswordField(20);
         constraints.gridx = 1;
         constraints.gridy = 1;
-        panel.add(passwordText, constraints);
+        centerPanel.add(passwordText, constraints);
 
         JButton loginButton = new JButton("Login");
         constraints.gridx = 0;
         constraints.gridy = 2;
         constraints.gridwidth = 1;
         constraints.anchor = GridBagConstraints.CENTER;
-        panel.add(loginButton, constraints);
+        centerPanel.add(loginButton, constraints);
 
         JButton registerButton = new JButton("Register");
         constraints.gridx = 1;
         constraints.gridy = 2;
         constraints.gridwidth = 1;
         constraints.anchor = GridBagConstraints.CENTER;
-        panel.add(registerButton, constraints);
+        centerPanel.add(registerButton, constraints);
 
-        // Aggiungi azione per il pulsante di login
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -82,12 +89,17 @@ public class Login {
             }
         });
 
-        // Aggiungi azione per il pulsante di registrazione
         registerButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Apri la finestra di registrazione qui
-                Register.createRegistrationWindow();
+                JPanel registerPanel = new JPanel();
+                Register.placeRegistrationComponents(registerPanel, frame);
+                frame.remove(panel);
+                frame.add(registerPanel);
+                frame.pack();
+                frame.revalidate();
+                frame.repaint();
+                frame.setSize(new Dimension(500, 500));
             }
         });
     }
