@@ -13,7 +13,7 @@ public class LoginGUI extends JFrame implements ActionListener {
     public LoginGUI() {
         super("Login");
 
-        // Creazione dei componenti dell'interfaccia
+        // Creazione dei componenti dell'interfacciaa22
         JLabel usernameLabel = new JLabel("Username: ");
         JLabel passwordLabel = new JLabel("Password: ");
         usernameField = new JTextField(20);
