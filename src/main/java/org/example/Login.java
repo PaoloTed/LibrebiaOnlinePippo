@@ -1,16 +1,20 @@
 package org.example;
 
+import com.formdev.flatlaf.FlatDarkLaf;
 import com.formdev.flatlaf.FlatLightLaf;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import static java.awt.Color.black;
+import static java.awt.Color.lightGray;
+
 public class Login {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             try {
-                UIManager.setLookAndFeel(new FlatLightLaf());
+                UIManager.setLookAndFeel(new FlatDarkLaf());
             } catch (UnsupportedLookAndFeelException e) {
                 e.printStackTrace();
             }
@@ -20,7 +24,6 @@ public class Login {
 
             JPanel loginPanel = new JPanel();
             placeLoginComponents(loginPanel, frame);
-
             frame.add(loginPanel);
 
             // Imposta la dimensione del frame a 500x500
@@ -38,14 +41,18 @@ public class Login {
         panel.setLayout(new BorderLayout());
 
         JPanel centerPanel = new JPanel(new GridBagLayout());
-        centerPanel.setBackground(new Color(204, 229, 255));
+        centerPanel.setBackground(new Color(187, 187, 172));
         panel.add(centerPanel, BorderLayout.CENTER);
 
         GridBagConstraints constraints = new GridBagConstraints();
         constraints.anchor = GridBagConstraints.WEST;
         constraints.insets = new Insets(5, 5, 5, 5);
 
-        JLabel userLabel = new JLabel("Username:");
+        JLabel userLabel = new JLabel("  Username  ");
+        userLabel.setForeground(new Color(187, 187, 172));
+        userLabel.setBackground(new Color(70, 73, 75));
+        userLabel.setOpaque(true);
+
         constraints.gridx = 0;
         constraints.gridy = 0;
         centerPanel.add(userLabel, constraints);
@@ -55,7 +62,10 @@ public class Login {
         constraints.gridy = 0;
         centerPanel.add(userText, constraints);
 
-        JLabel passwordLabel = new JLabel("Password:");
+        JLabel passwordLabel = new JLabel("  Password   ");
+        passwordLabel.setForeground(new Color(187, 187, 172));
+        passwordLabel.setBackground(new Color(70, 73, 75));
+        passwordLabel.setOpaque(true);
         constraints.gridx = 0;
         constraints.gridy = 1;
         centerPanel.add(passwordLabel, constraints);
@@ -71,6 +81,7 @@ public class Login {
         constraints.gridwidth = 1;
         constraints.anchor = GridBagConstraints.CENTER;
         centerPanel.add(loginButton, constraints);
+
 
         JButton registerButton = new JButton("Register");
         constraints.gridx = 1;

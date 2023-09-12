@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="860de269-62df-43d9-bae2-ecacd49b4d93" name="Changes" comment="prova paoloadaddddddddddddddddddddddd df dfc z&lt;sdertyuiouytfgytfttftt">
+    <list default="true" id="860de269-62df-43d9-bae2-ecacd49b4d93" name="Changes" comment="commit 18 maggio 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Register.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +56,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -91,7 +90,14 @@
       <workItem from="1683569840397" duration="101000" />
       <workItem from="1683569990643" duration="582000" />
       <workItem from="1684144138047" duration="4655000" />
-      <workItem from="1684413639264" duration="3382000" />
+      <workItem from="1684413639264" duration="6314000" />
+      <workItem from="1684512005051" duration="278000" />
+      <workItem from="1685294900928" duration="805000" />
+      <workItem from="1686155667150" duration="26000" />
+      <workItem from="1686307277358" duration="606000" />
+      <workItem from="1686310294422" duration="717000" />
+      <workItem from="1689688473047" duration="1000" />
+      <workItem from="1694509496396" duration="1499000" />
     </task>
     <task id="LOCAL-00001" summary="Prova">
       <created>1682602489950</created>
@@ -121,7 +127,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684414903088</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit 18 maggio 1">
+      <created>1684417135009</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684417135009</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit 18 maggio 1">
+      <created>1684417203451</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684417203451</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit 18 maggio 1">
+      <created>1684417446373</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684417446373</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,17 +170,23 @@
     <MESSAGE value="jkygasbdkasujda" />
     <MESSAGE value="versione 1 home" />
     <MESSAGE value="prova paoloadaddddddddddddddddddddddd df dfc z&lt;sdertyuiouytfgytfttftt" />
-    <option name="LAST_COMMIT_MESSAGE" value="prova paoloadaddddddddddddddddddddddd df dfc z&lt;sdertyuiouytfgytfttftt" />
+    <MESSAGE value="commi" />
+    <MESSAGE value="commit 18 maggio 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 18 maggio 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Login.java</url>
-          <line>74</line>
+          <line>73</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
