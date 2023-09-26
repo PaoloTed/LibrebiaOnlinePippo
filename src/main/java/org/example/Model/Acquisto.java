@@ -4,6 +4,7 @@ public class Acquisto {
 
     private int codA;
     private int codAaaaaaaaaaaaaaaaa;
+    private int ciaofbar;
     private String nome;
 
     public int getCodA() {

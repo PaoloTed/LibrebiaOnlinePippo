@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="860de269-62df-43d9-bae2-ecacd49b4d93" name="Changes" comment="commit 18 maggio 1">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Model/Acquisto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Acquisto.java" afterDir="false" />
+    <list default="true" id="860de269-62df-43d9-bae2-ecacd49b4d93" name="Changes" comment="commit 18 maggio 15656">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +96,8 @@
       <workItem from="1686307277358" duration="606000" />
       <workItem from="1686310294422" duration="717000" />
       <workItem from="1689688473047" duration="1000" />
-      <workItem from="1694509496396" duration="1499000" />
-      <workItem from="1695754106949" duration="360000" />
+      <workItem from="1694509496396" duration="2519000" />
+      <workItem from="1695752604841" duration="1639000" />
     </task>
     <task id="LOCAL-00001" summary="Prova">
       <created>1682602489950</created>
@@ -148,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684417446373</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit 18 maggio 1">
+      <created>1694511461714</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694511461714</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit 18 maggio 15656">
+      <created>1694511593136</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694511593136</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +186,8 @@
     <MESSAGE value="prova paoloadaddddddddddddddddddddddd df dfc z&lt;sdertyuiouytfgytfttftt" />
     <MESSAGE value="commi" />
     <MESSAGE value="commit 18 maggio 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 18 maggio 1" />
+    <MESSAGE value="commit 18 maggio 15656" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 18 maggio 15656" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
