@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="860de269-62df-43d9-bae2-ecacd49b4d93" name="Changes" comment="Prova Ciao Fabrizo 2">
+      <change afterPath="$PROJECT_DIR$/src/LIbreria prova/flatlaf-3.1.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Model/Acquisto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Acquisto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "316",
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "last_opened_file_path": "C:/LibrebiaOnlinePippo/.idea/libraries/flatlaf-3.1.1.jar",
+    "last_opened_file_path": "D:/Universita/LibrebiaOnlinePippo/src/LIbreria prova/flatlaf-3.1.1.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,6 +69,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Universita\LibrebiaOnlinePippo\src\LIbreria prova" />
       <recent name="C:\LibrebiaOnlinePippo\.idea\libraries" />
       <recent name="C:\LibreriaOnlneV2\LibrebiaOnlineV2\src\main\java\org\example\GUI" />
     </key>
