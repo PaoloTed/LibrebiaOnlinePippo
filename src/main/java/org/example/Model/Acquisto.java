@@ -3,6 +3,7 @@ package org.example.Model;
 public class Acquisto {
 
     private int codA;
+    private int codAaaaaaaaaaaaaaaaa;
     private String nome;
 
     public int getCodA() {
